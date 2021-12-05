@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F4EDD492F18CD19FA3195AF /* Pods_PicsumPhotosApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAEE63D70F2B9DA03833B86D /* Pods_PicsumPhotosApp.framework */; };
+		A93DE2F22740E5240052D95A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93DE2F12740E5240052D95A /* MainViewController.swift */; };
+		A93DE2F42740E7A40052D95A /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93DE2F32740E7A40052D95A /* SearchResult.swift */; };
+		A93DE2F62740E9F20052D95A /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93DE2F52740E9F20052D95A /* NetworkService.swift */; };
+		A93DE2F82740ED300052D95A /* NetworkFetchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93DE2F72740ED300052D95A /* NetworkFetchData.swift */; };
+		A93DE300274412C00052D95A /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A93DE2FF274412C00052D95A /* ImageCell.swift */; };
+		A94A846C274BDCB600815351 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A94A846B274BDCB600815351 /* DetailViewController.swift */; };
+		A95F83912753DEC30012D1BC /* close@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A95F838F2753DEC20012D1BC /* close@3x.png */; };
+		A95F83922753DEC30012D1BC /* close@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A95F83902753DEC20012D1BC /* close@2x.png */; };
+		A95F83952753DFED0012D1BC /* no-image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A95F83932753DFED0012D1BC /* no-image@3x.png */; };
+		A95F83962753DFED0012D1BC /* no-image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A95F83942753DFED0012D1BC /* no-image@2x.png */; };
+		A9F9D29F2746A5D00032C1E3 /* image@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F9D29D2746A5D00032C1E3 /* image@2x.png */; };
+		A9F9D2A02746A5D00032C1E3 /* image@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A9F9D29E2746A5D00032C1E3 /* image@3x.png */; };
 		A9FFCC0B2740180400660769 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFCC0A2740180400660769 /* AppDelegate.swift */; };
 		A9FFCC0D2740180400660769 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFCC0C2740180400660769 /* SceneDelegate.swift */; };
-		A9FFCC0F2740180400660769 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9FFCC0E2740180400660769 /* ViewController.swift */; };
-		A9FFCC122740180400660769 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FFCC102740180400660769 /* Main.storyboard */; };
 		A9FFCC142740180400660769 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9FFCC132740180400660769 /* Assets.xcassets */; };
 		A9FFCC172740180400660769 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9FFCC152740180400660769 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2109DE232C37297F867E48EF /* Pods-PicsumPhotosApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicsumPhotosApp.release.xcconfig"; path = "Target Support Files/Pods-PicsumPhotosApp/Pods-PicsumPhotosApp.release.xcconfig"; sourceTree = "<group>"; };
+		A93DE2F12740E5240052D95A /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		A93DE2F32740E7A40052D95A /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		A93DE2F52740E9F20052D95A /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		A93DE2F72740ED300052D95A /* NetworkFetchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetchData.swift; sourceTree = "<group>"; };
+		A93DE2FF274412C00052D95A /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		A94A846B274BDCB600815351 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A95F838F2753DEC20012D1BC /* close@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@3x.png"; sourceTree = "<group>"; };
+		A95F83902753DEC20012D1BC /* close@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "close@2x.png"; sourceTree = "<group>"; };
+		A95F83932753DFED0012D1BC /* no-image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image@3x.png"; sourceTree = "<group>"; };
+		A95F83942753DFED0012D1BC /* no-image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-image@2x.png"; sourceTree = "<group>"; };
+		A9F9D29D2746A5D00032C1E3 /* image@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@2x.png"; sourceTree = "<group>"; };
+		A9F9D29E2746A5D00032C1E3 /* image@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "image@3x.png"; sourceTree = "<group>"; };
 		A9FFCC072740180300660769 /* PicsumPhotosApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicsumPhotosApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9FFCC0A2740180400660769 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A9FFCC0C2740180400660769 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A9FFCC0E2740180400660769 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A9FFCC112740180400660769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A9FFCC132740180400660769 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A9FFCC162740180400660769 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A9FFCC182740180400660769 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAEE63D70F2B9DA03833B86D /* Pods_PicsumPhotosApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicsumPhotosApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF8AF6BE7637165EB96E3EFD /* Pods-PicsumPhotosApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicsumPhotosApp.debug.xcconfig"; path = "Target Support Files/Pods-PicsumPhotosApp/Pods-PicsumPhotosApp.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +55,50 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F4EDD492F18CD19FA3195AF /* Pods_PicsumPhotosApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DB76FEF0B9C4E7966C575DE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AAEE63D70F2B9DA03833B86D /* Pods_PicsumPhotosApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DC546426D3D53919EA3E002 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DF8AF6BE7637165EB96E3EFD /* Pods-PicsumPhotosApp.debug.xcconfig */,
+				2109DE232C37297F867E48EF /* Pods-PicsumPhotosApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A9F9D29C2746A5AD0032C1E3 /* IMG */ = {
+			isa = PBXGroup;
+			children = (
+				A95F83942753DFED0012D1BC /* no-image@2x.png */,
+				A95F83932753DFED0012D1BC /* no-image@3x.png */,
+				A95F83902753DEC20012D1BC /* close@2x.png */,
+				A95F838F2753DEC20012D1BC /* close@3x.png */,
+				A9F9D29D2746A5D00032C1E3 /* image@2x.png */,
+				A9F9D29E2746A5D00032C1E3 /* image@3x.png */,
+			);
+			path = IMG;
+			sourceTree = "<group>";
+		};
 		A9FFCBFE2740180300660769 = {
 			isa = PBXGroup;
 			children = (
 				A9FFCC092740180300660769 /* PicsumPhotosApp */,
 				A9FFCC082740180300660769 /* Products */,
+				7DC546426D3D53919EA3E002 /* Pods */,
+				1DB76FEF0B9C4E7966C575DE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +113,60 @@
 		A9FFCC092740180300660769 /* PicsumPhotosApp */ = {
 			isa = PBXGroup;
 			children = (
-				A9FFCC0A2740180400660769 /* AppDelegate.swift */,
-				A9FFCC0C2740180400660769 /* SceneDelegate.swift */,
-				A9FFCC0E2740180400660769 /* ViewController.swift */,
-				A9FFCC102740180400660769 /* Main.storyboard */,
-				A9FFCC132740180400660769 /* Assets.xcassets */,
-				A9FFCC152740180400660769 /* LaunchScreen.storyboard */,
-				A9FFCC182740180400660769 /* Info.plist */,
+				A9FFCC2127401A6D00660769 /* Controllers */,
+				A9FFCC2027401A6300660769 /* Networking */,
+				A9FFCC1F27401A5C00660769 /* Model */,
+				A9FFCC1E2740193500660769 /* Support Files */,
+				A9FFCC2227401A8800660769 /* View */,
 			);
 			path = PicsumPhotosApp;
+			sourceTree = "<group>";
+		};
+		A9FFCC1E2740193500660769 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9F9D29C2746A5AD0032C1E3 /* IMG */,
+				A9FFCC0A2740180400660769 /* AppDelegate.swift */,
+				A9FFCC0C2740180400660769 /* SceneDelegate.swift */,
+				A9FFCC132740180400660769 /* Assets.xcassets */,
+				A9FFCC182740180400660769 /* Info.plist */,
+			);
+			path = "Support Files";
+			sourceTree = "<group>";
+		};
+		A9FFCC1F27401A5C00660769 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A93DE2F32740E7A40052D95A /* SearchResult.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A9FFCC2027401A6300660769 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				A93DE2F52740E9F20052D95A /* NetworkService.swift */,
+				A93DE2F72740ED300052D95A /* NetworkFetchData.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A9FFCC2127401A6D00660769 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A93DE2F12740E5240052D95A /* MainViewController.swift */,
+				A93DE2FF274412C00052D95A /* ImageCell.swift */,
+				A94A846B274BDCB600815351 /* DetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A9FFCC2227401A8800660769 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A9FFCC152740180400660769 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A9FFCC1B2740180400660769 /* Build configuration list for PBXNativeTarget "PicsumPhotosApp" */;
 			buildPhases = (
+				D25D1E57AED361CBB117506E /* [CP] Check Pods Manifest.lock */,
 				A9FFCC032740180300660769 /* Sources */,
 				A9FFCC042740180300660769 /* Frameworks */,
 				A9FFCC052740180300660769 /* Resources */,
+				FA7D7A094795089181EACEE5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,36 +229,80 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A95F83912753DEC30012D1BC /* close@3x.png in Resources */,
+				A95F83962753DFED0012D1BC /* no-image@2x.png in Resources */,
+				A95F83922753DEC30012D1BC /* close@2x.png in Resources */,
+				A95F83952753DFED0012D1BC /* no-image@3x.png in Resources */,
+				A9F9D2A02746A5D00032C1E3 /* image@3x.png in Resources */,
 				A9FFCC172740180400660769 /* LaunchScreen.storyboard in Resources */,
 				A9FFCC142740180400660769 /* Assets.xcassets in Resources */,
-				A9FFCC122740180400660769 /* Main.storyboard in Resources */,
+				A9F9D29F2746A5D00032C1E3 /* image@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D25D1E57AED361CBB117506E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PicsumPhotosApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA7D7A094795089181EACEE5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicsumPhotosApp/Pods-PicsumPhotosApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PicsumPhotosApp/Pods-PicsumPhotosApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PicsumPhotosApp/Pods-PicsumPhotosApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A9FFCC032740180300660769 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9FFCC0F2740180400660769 /* ViewController.swift in Sources */,
+				A93DE2F62740E9F20052D95A /* NetworkService.swift in Sources */,
+				A93DE2F82740ED300052D95A /* NetworkFetchData.swift in Sources */,
+				A93DE2F22740E5240052D95A /* MainViewController.swift in Sources */,
+				A93DE2F42740E7A40052D95A /* SearchResult.swift in Sources */,
+				A93DE300274412C00052D95A /* ImageCell.swift in Sources */,
 				A9FFCC0B2740180400660769 /* AppDelegate.swift in Sources */,
 				A9FFCC0D2740180400660769 /* SceneDelegate.swift in Sources */,
+				A94A846C274BDCB600815351 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A9FFCC102740180400660769 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A9FFCC112740180400660769 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A9FFCC152740180400660769 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -284,6 +432,7 @@
 		};
 		A9FFCC1C2740180400660769 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF8AF6BE7637165EB96E3EFD /* Pods-PicsumPhotosApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -291,10 +440,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TR8VMB4WD9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PicsumPhotosApp/Info.plist;
+				INFOPLIST_FILE = "PicsumPhotosApp/Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,12 +455,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		A9FFCC1D2740180400660769 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2109DE232C37297F867E48EF /* Pods-PicsumPhotosApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -319,10 +469,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = TR8VMB4WD9;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = PicsumPhotosApp/Info.plist;
+				INFOPLIST_FILE = "PicsumPhotosApp/Support Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -334,7 +484,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
